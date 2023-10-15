@@ -23,6 +23,7 @@ const employeeSchema = new mongoose.Schema({
         maxlength: 25,
     },
     salary: {
+
         type: Number,
         required: true,
     },
